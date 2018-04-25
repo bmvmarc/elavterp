@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8827ffc-54a1-4f31-bb37-63f78525254c">
+  <producedTypes>
+    <objectType typeId="3be0f002-eff3-4844-9c2d-011bb0ebef2f" valueTypeId="a29448ba-5cc2-4d12-a006-90a0f189ee47"/>
+    <refType typeId="0f38a55c-e5f8-4f3d-b6d2-ddd1f5c5c7f3" valueTypeId="26397448-a6f8-40aa-b3f0-cdb976cd59d2">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="88093e6e-57f1-4c6e-ae54-499f9ee61ade" valueTypeId="df355f56-65b3-4c44-855b-fedc99b7b9e3"/>
+    <listType typeId="26b7dbb3-47b2-40ff-880d-534d95dda319" valueTypeId="c518a79a-0213-48d3-8f64-a0bfec19fbf4"/>
+    <managerType typeId="e892cd88-7918-451b-86c2-4ef44f0b3d0a" valueTypeId="9f88cff3-a37e-43a1-804e-7f04e64d69a7"/>
+  </producedTypes>
+  <name>ХаХаВотИПроверим</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ха ха вот и проверим</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ХаХаВотИПроверим.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ХаХаВотИПроверим.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9c43801b-acf8-447d-a051-5a1c91cb2295">
+    <name>Реквизитище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизитище</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
